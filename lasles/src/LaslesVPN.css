@@ -1,0 +1,603 @@
+body{
+    background: #fff;
+}
+.Main-Nav{
+    display: grid;
+    width: 100%;
+    height: 10rem;
+    grid-template-columns: 5rem 1fr 3fr 1fr 5rem;
+   
+}
+.Logo{
+    display: flex;
+    grid-column: 2/3;
+    align-items: center;
+}
+.Nav-Links ul{
+    display: flex;
+    height: 10rem;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 3/4;
+}
+.Nav-Links ul li {
+    /* justify-content: space-between; */
+    list-style: none;
+   
+}
+.Nav-Links ul li a{
+    text-decoration: none;
+}
+.Buttons{
+    display: flex;
+    /* height: 10rem; */
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 4/5;
+}
+.btn1 button{
+    border: none;
+    background: none;
+}
+.btn2 button{
+    background-color: white;
+    color: #F53855;
+    border-color: #F53855;
+    border-radius: 23.49px;
+    height: 3rem;
+    width: 8rem;
+    border-width: 1px;
+}
+.menu{
+   display: none;
+}
+.HeaderUp{
+    display: grid;
+    width: 100%;
+    /* height: 20rem; */
+    grid-template-columns: 7rem 2fr 2fr 3fr 4rem;
+}
+.heading{
+    /* width: 200%; */
+    grid-column: 2/4;
+    align-items: center;
+}
+.headertag{
+    color: #0B132A;
+    /* font-size: 44px; */
+    word-spacing: 2px;
+    vertical-align: Top;
+}
+.headertag span{
+    font-weight: 1000;
+    margin-left: 4px;
+}
+.paragraph{
+    color: #4d5665;
+    font-size: 18px;
+}
+.paragraph span{
+    font-weight: 600;
+}
+.pic{
+    align-items: center;
+    grid-column: 4/5;
+}
+.pic img{
+    width: 100%;
+}
+.BtnStart{
+    color: #fff;
+    background: #F53838;
+    height: 60px;
+    width: 250px;
+    left: 150px;
+    top: 476.7659912109375px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 20px 20px 0px #ffe9e9;
+}
+.servicesinfo{
+    display: flex;
+    width: 70%;
+    height: 10rem;
+    grid-template-columns: 5rem 1fr 3fr 1fr 5rem;
+    align-items: center;
+    box-shadow: 0px 20px 20px 0px #ffe9e9;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+}
+.users{ 
+    display: flex;
+    align-items: center;
+}
+.users img{
+    height: 5vh;
+    justify-content: space-around;
+    background: #ffebeb;
+    border-radius: 50%;
+}
+.Locations{
+    display: flex;
+    height: 10rem;
+    align-items: center;
+  
+}
+.Locations img{
+    height: 5vh;
+    justify-content: space-around;
+    background: #ffebeb;
+    border-radius: 50%;
+}
+.Servers{
+    display: flex;
+    align-items: center;
+}
+.Servers img{
+    height: 5vh;
+    justify-content: space-around;
+    background: #ffebeb;
+    border-radius: 50%;
+}
+.features{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 5rem 1fr 1fr 10rem;
+}
+.line1{
+    width: 1px;
+    height: 10vh;
+    background: #EEEFF2;
+}
+.line2{
+    width: 1px;
+    height: 10vh;
+    background: #EEEFF2;
+}
+.img{
+    grid-column: 2/3;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+}
+.img img{
+    height: 40vh;
+}
+.info{
+    grid-column: 3/4;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+}
+.planMain{
+    width: 100%;
+    background: #fbfbfb;
+}
+.Plan{
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.Plan{
+    text-align: center;
+}
+.Plan h2{
+    text-align: center; 
+}
+.Plan p{
+    text-align: center;
+}
+.Plan1{
+    display: grid;
+    width: 70%;
+    /* height: 100vh; */
+    grid-template-columns: 5rem 1fr 1fr 1fr 5rem;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+   
+    
+}
+.p1{
+    width: 70%;
+    grid-column: 2/3;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    background: white;
+    border: 2px solid #DDDDDD
+}
+ .p1 h3{
+    text-align: center;
+}
+.p1 button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: F53838;
+    height: 45px;
+    width: 177.87646484375px;
+    left: 251.061767578125px;
+    top: 2441.549560546875px;
+    border-radius: 50px;
+    border-width: 1px;
+    border: 2px solid #F53838;
+}
+.p2{
+    width: 70%;
+    grid-column: 3/4;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    background: white;
+    border: 2px solid #DDDDDD
+}
+.p2 h3{
+    text-align: center;
+}
+.p2 button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: F53838;
+    height: 45px;
+    width: 177.87646484375px;
+    left: 251.061767578125px;
+    top: 2441.549560546875px;
+    border-radius: 50px;
+    border-width: 1px;
+    border: 2px solid #F53838;
+}
+.p3{
+    width: 70%;
+    grid-column: 4/5;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    background: white;
+    border: 2px solid #DDDDDD
+}
+.p3 h3{
+    text-align: center;
+}
+.p3 button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: F53838;
+    height: 45px;
+    width: 177.87646484375px;
+    left: 251.061767578125px;
+    top: 2441.549560546875px;
+    border-radius: 50px;
+    border-width: 1px;
+    border: 2px solid #F53838;
+}
+.pimg img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Global{
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.Global{
+    text-align: center;
+}
+.map{
+    width: 70%;
+    /* height: 70vh; */
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+  
+}
+.map img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 75%;
+}
+.siteName{
+    display: flex;
+    justify-content: space-around;
+}
+/* Testimonials */
+.testimonials{
+    width: 100%;
+    /* height: 100vh; */
+}
+.Reviews{
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.usersreview{
+    display: grid;
+    width: 100%;
+    /* height: 20vh; */
+    grid-template-columns: 5rem 3fr 3fr 3fr 3rem;
+    justify-content: space-around;
+}
+.uv1{
+    width: 90%;
+    grid-column: 2/3;
+    border: 2px solid #DDDDDD; 
+    border-radius: 4px;
+}
+.uvs1{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+.uvs2{
+    align-items: center;
+    margin: auto;
+    text-align: justify;
+}
+.us1 {
+    width: 10%;
+}
+
+.uv2{
+    border-radius: 4px;
+    width: 90%;
+    grid-column: 3/4;
+    border: 2px solid #DDDDDD; 
+}
+.uvs3{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+.us2 {
+    width: 10%;
+}
+.uv3{
+    border-radius: 4px;
+    width: 90%;
+    grid-column: 4/5;
+    border: 2px solid #DDDDDD; 
+}
+.uvs4{
+    align-items: center;
+    margin: auto;
+    text-align: justify;
+}
+.uvs5{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+.us3 {
+    width: 10%;
+}
+.uvs6{
+    align-items: center;
+    margin: auto;
+    text-align: justify;
+}
+/* Subscription Information */
+.subscription{
+    display: grid;
+    width: 70%;
+    grid-template-columns: 5rem 1fr 3fr 1fr 5rem;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    box-shadow: 0px 20px 20px 0px #ffe9e9;
+}
+.subscription h3{
+    grid-column: 2/3;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    width: 200%;
+}
+.subscription span{
+    font-weight: 100;
+}
+.subscription button{
+    grid-column: 4/5;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    color: #fbfbfb;
+    background: red;
+    border: none;
+}
+/* footer */
+.footer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 5rem 4fr 1fr 1fr 1fr 5rem;
+    background: #F8F8F8;
+}
+/* Responsive media  */
+@media (max-width:998px){
+    body .App{
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+    .Main-Nav{
+        height: 5rem;
+        grid-template-columns: 2rem 1fr 1fr 1fr 2rem;
+        width: 100%;
+    }
+    /* .Logo h1{
+        font-size: 40px;
+    } */
+    .Nav-Links ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+        font-size: 2.5rem;
+    }
+    .btn1{
+        display: none;
+    }
+    .btn2{
+        display: none;
+    }
+    .HeaderUp{
+        display: block;
+        align-items: center;
+      
+    }
+    .headertag{
+        text-align: center;
+    }
+    .paragraph{
+        text-align: justify;
+        align-items: center;
+        margin: auto;
+        
+    }
+    .features{
+        display: block;
+    }
+    .pic img{
+        width: 100%;
+        height: auto;
+    }
+   .BtnStart{
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    margin-left: 5.5em;
+    width: 10em;
+    height: 3em;
+   }
+   .servicesinfo{
+    width: auto;
+    margin-top: 3em;
+   }
+   .features{
+    display: block;
+    margin: auto;
+    align-items: center;
+   }
+   .img img{
+    width: 100%;
+   }
+   .info h2{
+    text-align: center;
+   }
+   .info p{
+    text-align: center;
+   }
+   .feature1{
+    text-align: center;
+   }
+   .Plan1{
+    display: block;
+   }
+   .p1{
+    width: 100%;
+   }
+   .p2{
+    width: 100%;
+   }
+   .p3{
+    width: 100%;
+   }
+   .map img{
+    width: 100%;
+   }
+   .siteName{
+    width: 100%;
+    justify-content: space-evenly;
+
+   }
+   .siteName img{
+    width: 3em;
+   }
+   .usersreview{
+    display: block;
+   }
+  .uv1{
+    margin: auto;
+    align-items: center;
+    /* text-align: center; */
+   }
+   .uv2{
+    margin: auto;
+    align-items: center;
+    /* text-align: center; */
+   }
+   .uv3{
+    margin: auto;
+    align-items: center;
+    /* text-align: center; */
+   }
+   .subscription{
+    grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+    width: 100%;
+   }
+   .subscription h3{
+    width: 200%;
+   }
+   .subscription button{
+    width: 100%;
+   }
+   .footer{
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+   }
+   .foot2{
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .foot{
+    display: grid;
+    margin: auto;
+    text-align: center;
+   }
+   .Product{
+    grid-column: 2/3;
+   }
+   .Engage{
+    grid-column: 3/4;
+   }
+   .Earn{
+    grid-column: 4/5;
+   }
+}
